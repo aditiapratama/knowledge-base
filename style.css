@@ -1,0 +1,61 @@
+/*
+Theme Name:         Knowledge Base
+Theme URI:          https://pressapps.co
+Description:        Knowledge Base is a responsive WordPress theme built for PressApps Knowledge Base Plugin.
+Version:            1.0.0
+Author:             PressApps
+Author URI:         https://codecanyon.net/user/pressapps
+Text Domain:        knowledge-base
+
+License: GNU General Public License and Themeforest License
+License URI: http://themeforest.net/licenses/regular_extended
+*/
+
+.wp-caption {
+  margin-bottom: calc(1.5 * 1rem);
+}
+
+.wp-caption-text, {
+  font-size: 0.71111em;
+}
+
+.sticky {
+  display: block;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.gallery-caption {
+  display: block;
+  font-size: 0.71111em;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.bypostauthor {
+  display: block;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
