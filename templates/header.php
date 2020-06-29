@@ -8,6 +8,9 @@
                 <?php } else { ?>
                   <a class="uk-logo" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
                 <?php } ?>
+                  <div class="site-description">
+                    <?php bloginfo('description'); ?>
+                  </div>
             </div>
             <div class="nav-overlay uk-navbar-item uk-navbar-right">
               <div class="uk-visible@m">
@@ -22,7 +25,7 @@
               <?php } ?>
               <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
             </div>
-            <?php if ( $navbar_search && class_exists( 'Pressapps_Knowledge_Base' ) ) { 
+            <?php if ( $navbar_search && class_exists( 'Pressapps_Knowledge_Base' ) ) {
               $search_placeholder = !is_null( get_field( 'pakb_search_placeholder', 'option' ) ) ? trim( strip_tags( get_field( 'pakb_search_placeholder', 'option' ) ) ) : 'Search for answers';
               $live_search = !is_null( get_field( 'pakb_search_live', 'option' ) ) ? get_field( 'pakb_search_live', 'option' ) : true;
             ?>
